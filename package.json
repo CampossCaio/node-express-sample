@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start:dev": "yarn nodemon",
-    "build": "rimraf ./build && tsc",
-    "start": "yarn build && node build/server.js"
+    "build": "rimraf ./dist && tsc",
+    "start": "yarn build && node dist/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
